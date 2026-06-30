@@ -3,3 +3,10 @@ show_always = false
 
 [gcloud]
 disabled = true
+
+[battery]
+disabled = false
+
+[[battery.display]]
+threshold = 20
+style = "bold red"
